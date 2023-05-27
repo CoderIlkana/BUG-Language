@@ -1,0 +1,48 @@
+.sectionbox{
+    width: 100%;
+    height: 800px;
+    // background-color: cadetblue;
+padding-top: 120px;
+
+    .container{
+        .row{
+            .box1{
+                width: 100%;
+                height: 230px;
+                background-color: rgb(255, 255, 255);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border: 1px solid rgb(241, 241, 241);
+                margin-top: 30px ;
+
+                &:hover{
+                    i{
+                        color: #FFCF10;
+                    }
+                .b1{
+                        color: #FFCF10;
+                    }
+                }
+                i{
+                    font-size: 45px;
+                    color: rgb(201, 201, 201);
+                }
+                .box1-h1{
+                    font-size: 23px;
+                    padding-top: 20px;
+                 
+                }
+                .b1{
+                    color: rgb(161, 161, 161);
+                   }
+                
+        
+                .pre1{
+                    color: rgb(51, 51, 51);
+                }
+            }
+        }
+    }
+}
